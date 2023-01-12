@@ -9,7 +9,7 @@ import { DiCssdeck } from 'react-icons/di';
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
+    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" style={{backgroundColor: "#0f1624"}}>
       <Container>
         <Navbar.Brand href="/">
           <DiCssdeck size="3rem" />
